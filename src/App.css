@@ -1,0 +1,174 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.navbar{
+  padding: 40px;
+  
+}
+.bg-light{
+  --bs-bg-opacity: 0;
+}
+.menu{
+  background-color: rgb(0, 174, 193);
+}
+a:hover{
+  background-color: rgb(26, 0, 111);
+  border-radius: 80px;
+}
+a{
+  border-radius: 80px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.contenedor1{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+body{
+  background-color: rgb(240, 254, 255);
+}
+
+hr{
+  background-color: red;
+  padding: 5px;
+  margin-top: 30px;
+}
+.mb-3{
+  border-color: rgb(53, 0, 151);
+  border-width: 5px;
+  background-color: rgb(253, 233, 233);
+  border-radius: 80px;
+}
+h2{
+  margin-top: 50px;
+  color: red;
+}
+h3{
+  margin-top: 20px;
+}
+h1{
+  color: rgb(242, 0, 0);
+  position: absolute;
+  top: 40px;
+  left: 93px;
+}
+p{
+  font-size: 22px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.mb-3{
+  width: 100%;
+  margin-top: 30px;
+}
+.card-text{
+  text-align: left;
+}
+footer{
+  background-color: rgb(113, 0, 0);
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+}
+.nombre{
+  margin-top: 50px;
+}
+.section{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.g-4{
+  margin-top: 30px;
+}
+.card{
+  border: solid;
+   background-color: rgb(253, 233, 253);
+   transition: transform 0.3s ease;
+}
+.card:hover{
+  transform: scale(0.9);
+}
+.card-footer{
+  background-color: green;
+  padding: 20px;
+}
+.bolita1{
+   width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 35px;
+}
+.bolita2{
+   width: 30px;
+    height: 30px;
+    background-color: rgb(170, 0, 255);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 38px;
+    left: 120px;
+}
+.bolita3{
+   width: 30px;
+    height: 30px;
+    background-color: rgb(0, 213, 255);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    left: 200px;
+}
+.bolita4{
+   width: 30px;
+    height: 30px;
+    background-color: rgb(255, 208, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 34px;
+    left: 300px;
+}
+.logito{
+  margin-left: 500px;
+}
+.musica{
+  margin-left: 100px;
+}
